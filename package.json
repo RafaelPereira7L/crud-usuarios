@@ -11,8 +11,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "swagger-autogen": "node ./swagger.js",
-    "test": "jest --coverage --watchAll=false --watch --runInBand ./src/tests",
-    "build": "webpack"
+    "test": "jest --coverage --watchAll=false --watch --runInBand ./src/tests"
   },
   "author": "RafaelPereira7L",
   "license": "ISC",
