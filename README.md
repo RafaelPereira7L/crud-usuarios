@@ -34,7 +34,7 @@ npm run start
 A API está documentada usando o Swagger. Você pode acessar a documentação da API abrindo o seguinte URL no navegador:
 
 ```
-https://crud-usuarios.raffp.dev/auth ou http://localhost:5000/swagger
+https://crud-usuarios.raffp.dev/swagger ou http://localhost:5000/swagger
 ```
 
 <h2>Testes</h2>
