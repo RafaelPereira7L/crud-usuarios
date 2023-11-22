@@ -1,13 +1,11 @@
-**README**
+<h1>Backend - Desafio Técnico 2 - ESCRIBO</h1>
 
-**Backend - Desafio Técnico 2 - ESCRIBO**
-
-**Objetivo:**
+<h2>Objetivo:</h2>
 
 Desenvolver uma API RESTful para autenticação de usuários, que permita operações de cadastro (sign up),
 autenticação (sign in) e recuperação de informações do usuário.
 
-**Instalação**
+<h2>Instalação</h2>
 
 Para instalar a API, execute os seguintes comandos:
 
@@ -15,7 +13,7 @@ Para instalar a API, execute os seguintes comandos:
 npm install
 ```
 
-**Configuração**
+<h2>Configuração</h2>
 
 Para configurar a API, edite o arquivo `.env` e defina as seguintes variáveis de ambiente:
 
@@ -23,7 +21,7 @@ Para configurar a API, edite o arquivo `.env` e defina as seguintes variáveis d
 * `SECRET`: Secret utilizado para gerar o token JWT.
 * `DATABASE_URL`: Conexão com o banco de dados Postgres.
 
-**Execução**
+<h2>Execução</h2>
 
 Para executar a API, execute o seguinte comando:
 
@@ -31,7 +29,7 @@ Para executar a API, execute o seguinte comando:
 npm run start
 ```
 
-**Swagger**
+<h2>Swagger</h2>
 
 A API está documentada usando o Swagger. Você pode acessar a documentação da API abrindo o seguinte URL no navegador:
 
@@ -39,7 +37,7 @@ A API está documentada usando o Swagger. Você pode acessar a documentação da
 http://localhost:5000/swagger
 ```
 
-**Testes**
+<h2>Testes</h2>
 
 A API inclui testes unitários que podem ser executados com o seguinte comando:
 
@@ -47,7 +45,7 @@ A API inclui testes unitários que podem ser executados com o seguinte comando:
 npm run test
 ```
 
-**Exemplos de uso**
+<h2>Exemplos de uso</h2>
 
 Aqui estão alguns exemplos de como usar a API:
 
@@ -101,7 +99,7 @@ O corpo da solicitação deve conter os dados que você deseja atualizar.
 DELETE http://localhost:5000/users/{user_id}
 ```
 
-**Tecnologias utilizadas**
+<h2>Tecnologias utilizadas</h2>
 
 A API utiliza as seguintes tecnologias:
 
