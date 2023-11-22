@@ -34,7 +34,7 @@ npm run start
 A API está documentada usando o Swagger. Você pode acessar a documentação da API abrindo o seguinte URL no navegador:
 
 ```
-http://localhost:5000/swagger
+https://crud-usuarios.raffp.dev/auth ou http://localhost:5000/swagger
 ```
 
 <h2>Testes</h2>
@@ -52,7 +52,7 @@ Aqui estão alguns exemplos de como usar a API:
 * Para realizar o login, execute a seguinte consulta:
 
 ```
-GET http://localhost:5000/auth
+POST https://crud-usuarios.raffp.dev/auth ou http://localhost:5000/auth
 ```
 O corpo da solicitação deve conter os seguintes dados:
 
@@ -66,13 +66,13 @@ O corpo da solicitação deve conter os seguintes dados:
 * Para listar todos os usuários, execute a seguinte consulta:
 
 ```
-GET http://localhost:5000/users
+GET https://crud-usuarios.raffp.dev/users ou http://localhost:5000/users
 ```
 
 * Para criar um novo usuário, execute a seguinte consulta:
 
 ```
-POST http://localhost:5000/users
+POST https://crud-usuarios.raffp.dev/users ou http://localhost:5000/users
 ```
 
 O corpo da solicitação deve conter os seguintes dados:
@@ -88,7 +88,7 @@ O corpo da solicitação deve conter os seguintes dados:
 * Para atualizar um usuário, execute a seguinte consulta:
 
 ```
-PUT http://localhost:5000/users/{user_id}
+PUT https://crud-usuarios.raffp.dev/users/{user_id} ou http://localhost:5000/users/{user_id}
 ```
 
 O corpo da solicitação deve conter os dados que você deseja atualizar.
@@ -96,7 +96,7 @@ O corpo da solicitação deve conter os dados que você deseja atualizar.
 * Para excluir um usuário, execute a seguinte consulta:
 
 ```
-DELETE http://localhost:5000/users/{user_id}
+DELETE https://crud-usuarios.raffp.dev/users/{user_id} ou http://localhost:5000/users/{user_id}
 ```
 
 <h2>Tecnologias utilizadas</h2>
