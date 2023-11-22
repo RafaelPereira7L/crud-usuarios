@@ -3,12 +3,12 @@ import cors from 'cors';
 import { serve, setup } from 'swagger-ui-express';
 import { readFile } from 'fs/promises';
 import dotenv from 'dotenv';
-import router from './routes/router.js';
+import router from './src/routes/router.js';
 
 dotenv.config();
 
 const swaggerDocument = JSON.parse(
-  await readFile(new URL('./document/swagger.json', import.meta.url)),
+  await readFile(new URL('./src/document/swagger.json', import.meta.url)),
 );
 
 const app = express();
